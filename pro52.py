@@ -1,0 +1,21 @@
+a1,b1=input().split()
+a2,b2=input().split()
+a3,b3=input().split()
+a4,b4=input().split()
+a1=int(x1)
+b1=int(y1)
+a2=int(x2)
+b2=int(y2)
+a3=int(x3)
+b3=int(y3)
+a4=int(x4)
+b4=int(y4)
+x1=(((a2-a1)**2)+((b2-b1)**2))**(1/2)
+x2=(((a3-a2)**2)+((b3-b2)**2))**(1/2)
+x3=(((a4-a3)**2)+((b4-b3)**2))**(1/2)
+x4=(((a4-a1)**2)+((b4-b1)**2))**(1/2)
+if(x1==x2==x3==x4):
+    print("yes")
+else:
+    print("no")
+
