@@ -1,5 +1,5 @@
-s=int(input())
+j=int(input())
 fact=1
-for k in range(1,s+1):
-   fact=fact*k
+for s in range(1,j+1):
+   fact=fact*s
 print(fact)
